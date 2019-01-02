@@ -1,0 +1,12 @@
+{
+    "name": "ahmed/collectify",
+    "require": {
+        "gabordemooij/redbean": "^5.2",
+        "nibble/nibble-forms": "dev-master",
+        "phpunit/phpunit": "^8.0@dev"
+    },
+	"autoload": {
+		"psr-0": { "": "src/"}
+	},
+	"minimum-stability": "dev"
+}
