@@ -1,6 +1,12 @@
 <?php
 
-require_once __DIR__ . '/config.inc.php';
+$config = __DIR__ . '/config.inc.php';
+
+if (!file_exists($config)){
+	copy(__DIR__ . '/config.inc.sample.php', $config);
+}
+
+require_once $config;
 require_once __DIR__ . '/../vendor/autoload.php';
 use RedBeanPHP\Facade as R;
 
