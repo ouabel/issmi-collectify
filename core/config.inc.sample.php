@@ -19,5 +19,5 @@ define('REDBEAN_MODEL_PREFIX', '\\Collectify\\Model\\');
 /**
  * Collectify configuration
  */
-define('DEFAULT_CONTROLLER', 'home');
-define('DEFAULT_ACTION', 'homepage');
+define('DEFAULT_CONTROLLER', 'category');
+define('DEFAULT_ACTION', 'list');
